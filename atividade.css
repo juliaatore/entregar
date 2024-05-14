@@ -6,10 +6,55 @@
 
 header {
     background-color: #9A98A6;
-    padding: 70px;
+    padding: 2em;
     display: flex;
     justify-content: space-between;
    
+}
+
+header i {
+    font-size: 2.5em;
+}
+.flex{
+    /* aqui atribuimoss a imagem ao lado  */
+ display: flex;
+ /* aqui informamos que os itens podem quebrar para se acadepar em telas menores */
+ max-width: 1100px;
+ /* ele vai centralizar as div-s */
+ margin: 0 auto;
+ /* centralizar as div-s */
+ margin-bottom: 80px;
+ /* margem inferiror da minha section */
+ align-items: center;
+ flex-wrap: wrap;
+ /* serve para quebrar uma linha */
+ 
+
+}
+
+.flex img{
+/* adaptacao maxima da imagem na pagina da div */
+width: 15vw;
+height: 15vh;
+/* reforçando que minhas imagens estejam em formato de bloco */
+display: block;
+}
+
+.flex div{
+    margin: 3em;
+    /* espaçamento das margens laterais  */
+    flex: 1 1 200px;
+    /* aumenta o tamanho */
+}
+
+
+.cabecalho ul{
+    display: flex;
+}
+
+
+#div-pai{
+    display: flex;
 }
 
 .cabecalho li {
@@ -39,24 +84,35 @@ header {
 
 #moon h1{
 color: #222340;
-display: flex;
 justify-content: center ;
 padding: 5rem;
 }
 
 #moon h3 {
 color: #9A98A6;
-display: flex;
 justify-content: center;
 padding: 7rem;
 }
 
-.rodape{
-background-color: grey;
-padding: 80px;
-display: flex;
-justify-content: space-between;
+.sobre {
+    display: flex;
+    flex-wrap: wrap;
 }
+
+.sobre div img {
+    width: 40vw;
+    height: 60vh;
+}
+
+.sobre h2 {
+text-align: center;
+font-size: 2em;
+}
+
+    .sub {
+        background-color: gray;
+        margin-bottom: 3em;
+    }
 
 
 
