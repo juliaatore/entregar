@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background-color: #9A98A6;
+    padding: 70px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.cabecalho li {
+   
+    list-style: none;
+    margin-left: 20px;
+}
+
+.cabecalho li a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+
+.cabecalho a:hover {
+    color: #222340;
+    transition: 0.7s;
+}
+
+#moon {
+
+    background-image: url(img/phase-of-the-moon-4969110_1280.jpg);
+    padding: 20rem;
+
+
+}
+
+#moon h1{
+color: #222340;
+display: flex;
+justify-content: center ;
+padding: 5rem;
+}
+
+#moon h3 {
+color: #9A98A6;
+display: flex;
+justify-content: center;
+padding: 7rem;
+}
+
+.rodape{
+background-color: grey;
+padding: 80px;
+display: flex;
+justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
