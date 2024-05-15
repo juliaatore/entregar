@@ -4,13 +4,16 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-header {
+.cabecalho {
     background-color: #9A98A6;
-    padding: 2em;
     display: flex;
     justify-content: space-between;
-   
+    align-items: center;
+    padding: 50px;
+    flex-wrap: wrap;
 }
+
+
 
 header i {
     font-size: 2.5em;
@@ -35,9 +38,9 @@ header i {
 .flex img{
 /* adaptacao maxima da imagem na pagina da div */
 width: 15vw;
-height: 15vh;
+height: 18vh;
 /* reforçando que minhas imagens estejam em formato de bloco */
-display: block;
+
 }
 
 .flex div{
@@ -46,6 +49,26 @@ display: block;
     flex: 1 1 200px;
     /* aumenta o tamanho */
 }
+
+
+.div-flex {
+    width: 12rem;
+    height: 25rem;
+    background-color: transparent;
+    
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.582);
+}
+
+.div-flex img {
+    width: 100%;
+    height: 50%;
+}
+
+
+
+
+
+
 
 
 .cabecalho ul{
@@ -96,7 +119,8 @@ padding: 7rem;
 
 .sobre {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.582);
 }
 
 .sobre div img {
@@ -104,23 +128,77 @@ padding: 7rem;
     height: 60vh;
 }
 
-.sobre h2 {
+.texto{
+    margin-left: 2rem;
+    
+}
+
+.texto h2 {
 text-align: center;
 font-size: 2em;
 }
 
+.texto p {
+    text-align: center;
+}
+
     .sub {
-        background-color: gray;
-        margin-bottom: 3em;
+    padding: 4rem;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
     }
 
+    .sub div {
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
 
-
-
-
-
-
-
+    .footer {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: #000000;
+        padding: 3em;
+        flex-wrap: wrap;
+        color: white;
+        text-decoration: none;
+    }
+    
+    .lista2 {
+        display: flex;
+    }
+    
+    .lista2 li {
+        margin-right: 20px;
+        list-style: none;
+        display: inline;
+    }
+    
+    
+    
+    .lista2 li a {
+        text-decoration: none;
+        color: beige;
+        font-size: 1em;
+        padding: 1em;
+    }
+    
+    .lista2 a:hover {
+        color: aqua;
+        transition: 0.8s;
+    }
+    
+    .lista2 i {
+        color: black;
+        font-size: 1.2em;
+        background-color: pink;
+        padding: 0.3em;
+        margin-left: 10px;
+        border-radius: 30px;
+        margin-bottom: 0.5em;
+    }
 
 
 
